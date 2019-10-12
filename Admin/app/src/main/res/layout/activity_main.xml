@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/main"
+    tools:context="szabist.com.kidsgameadmin.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="User Name"
+            android:layout_marginTop="@dimen/x2dp"
+            android:layout_marginBottom="@dimen/x2dp"
+            android:paddingLeft="@dimen/x15dp"
+            android:paddingRight="@dimen/x15dp"
+            android:layout_marginRight="@dimen/x4dp"
+            android:layout_marginLeft="@dimen/x4dp"
+            android:textSize="@dimen/x12sp"
+            android:textColor="#fff"
+            android:theme="@style/AppTheme.Button"
+            android:ems="10"
+            android:id="@+id/editTextUsername" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginTop="@dimen/x2dp"
+            android:layout_marginBottom="@dimen/x2dp"
+            android:hint="Password"
+            android:paddingLeft="@dimen/x15dp"
+            android:paddingRight="@dimen/x15dp"
+            android:layout_marginRight="@dimen/x4dp"
+            android:layout_marginLeft="@dimen/x4dp"
+            android:textSize="@dimen/x12sp"
+            android:textColor="#fff"
+            android:theme="@style/AppTheme.Button"
+            android:ems="10"
+            android:id="@+id/editTextPassword" />
+
+        <Button
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x2dp"
+            android:layout_marginBottom="@dimen/x2dp"
+            android:background="#fff"
+            android:paddingLeft="@dimen/x15dp"
+            android:paddingRight="@dimen/x15dp"
+            android:layout_marginRight="@dimen/x4dp"
+            android:layout_marginLeft="@dimen/x4dp"
+            android:textSize="@dimen/x15sp"
+            android:textColor="#000"
+            android:id="@+id/button"
+            />
+    </LinearLayout>
+</RelativeLayout>

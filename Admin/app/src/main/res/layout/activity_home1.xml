@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/main"
+    tools:context="szabist.com.kidsgameadmin.home1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+
+        <Button
+            android:text="Add Item"
+            android:layout_marginTop="@dimen/x2dp"
+            android:layout_marginBottom="@dimen/x2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAdd"
+            android:background="#fff"
+            android:textAllCaps="true"
+            android:textSize="@dimen/x15sp"
+            android:textColor="#000"
+            android:theme="@style/AppTheme.Button"
+            android:layout_marginRight="@dimen/x4dp"
+            android:layout_marginLeft="@dimen/x4dp"
+            />
+
+        <Button
+            android:text="List"
+            android:layout_marginTop="@dimen/x2dp"
+            android:layout_marginBottom="@dimen/x2dp"
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/x2dp"
+            android:paddingLeft="@dimen/x2dp"
+            android:theme="@style/AppTheme.Button"
+            android:layout_marginRight="@dimen/x4dp"
+            android:layout_marginLeft="@dimen/x4dp"
+            android:textSize="@dimen/x15sp"
+            android:textColor="#000000"
+            android:id="@+id/lsit" />
+    </LinearLayout>
+
+</RelativeLayout>

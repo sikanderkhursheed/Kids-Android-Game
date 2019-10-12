@@ -1,0 +1,89 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "picture": "apple.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Orange",
+      "picture": "orange.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Cherry",
+      "picture": "cherry.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Grapes",
+      "picture": "grapes.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Peach",
+      "picture": "peach.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Black",
+      "picture": "black.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Blue",
+      "picture": "blue.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Green",
+      "picture": "green.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Grey",
+      "picture": "grey.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Red",
+      "picture": "red.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Yellow",
+      "picture": "yellow.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Brinjal",
+      "picture": "brinjal.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Carrots",
+      "picture": "carrots.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Corn",
+      "picture": "corn.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Lemon",
+      "picture": "lemon.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Peas",
+      "picture": "peas.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Tomato",
+      "picture": "tomato.jpg"
+    }
+  ]
+}
